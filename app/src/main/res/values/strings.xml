@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Object Selector</string>
+
+    <string name="title">Object Selector</string>
+
+    <string name="newPhotoMenuButton">Take a new picture</string>
+    <string name="selectAlbumMenuButton">Select picture from album</string>
+    <string name="historyMenuButton">History</string>
+    <string name="statisticsMenuButton">Statistics</string>
+    <string name="settingsMenuButton">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="serverIpPreferenceName">serverIp</string>
+    <string name="serverPortPreferenceName">serverPort</string>
+
+    <string name="mapKey" translatable="false">YourAPIKey</string>
+</resources>

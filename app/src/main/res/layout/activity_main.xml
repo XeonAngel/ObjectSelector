@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/titleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="left|center_vertical"
+        android:onClick="clickOnTakePhoto"
+        android:paddingLeft="40dp"
+        android:text="@string/newPhotoMenuButton"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/albumPictureButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="left|center_vertical"
+        android:onClick="clickOnSelectPhoto"
+        android:paddingLeft="40dp"
+        android:text="@string/selectAlbumMenuButton"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/addClassButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="left|center_vertical"
+        android:onClick="clickOnHistory"
+        android:paddingLeft="40dp"
+        android:text="@string/historyMenuButton"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/showStatisticsButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="left|center_vertical"
+        android:onClick="clickOnStatistics"
+        android:paddingLeft="40dp"
+        android:text="@string/statisticsMenuButton"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="left|center_vertical"
+        android:onClick="clickOnSettings"
+        android:paddingLeft="40dp"
+        android:text="@string/settingsMenuButton"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+</LinearLayout>
